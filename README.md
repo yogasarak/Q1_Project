@@ -33,3 +33,42 @@
 * the coloradian (for those that like to tackle peaks (cycle,run,ski) and suffer from common IT band syndrome)
   * form validates input as valid (from options above)
 * image of yoga pose and directions returned to user based on their input.
+
+
+# Q1ProjectProposal-
+
+## Project Proposal B
+**Brief description of recipe website**
+
+1. user enters in text box whether they are interested in a 
+
+ * form validates input as valid (beginner or intermediate, lowercase/no spaces)
+ * then returns the next text box 
+
+2. user enters in text box whether they have
+  ..* beginner valid input options: 10, 15 minute practice
+  ..* intermediate valid input options: 20, 30 minute practice 
+
+* What problem or need does your project solve?
+
+- many clients that I have cooked for want my recipes. I have also given public and private cooking classes. Both of these needs are met, people get recipes AND learn hwo to cook.
+- this also helps individuals and families who want to eat healthier, know their ingredients 
+
+* Who would be a user of your website?
+
+- anyone interested in cooking at home, improving the quality and nutritional value of their meals, and saving money on eating 	out!
+- busy individuals, couples, families or persons that do not have the budget/time to eat out. 
+	- beginner, intermediate cooks. (reach advanced home cooks & professional chefs).
+
+* What technologies will you be using?
+
+- HTML, CSS, JavaScript
+- Reach: an API for recipe finder
+
+## MVP
+1. user enters in text box what type of  they are interested in:
+* 
+* 
+* 
+  * form validates input as valid (from options above)
+* image of returned to user based on their input.
