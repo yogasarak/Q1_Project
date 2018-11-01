@@ -26,7 +26,7 @@
 - HTML, CSS, JavaScript
 - Reach: an API for yoga poses or class finder
 
-##MVP
+## MVP
 1. user enters in text box what type of yoga pose they are interested in:
 * low back care (gentle low back stretch for people that suffer from pain in their lumbar spine)
 * the web dev (for those that sit at a desk hunched over a screen all day)
