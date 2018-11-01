@@ -3,7 +3,7 @@
 ## Project Proposal A 
 **Brief description of Yoga Practice website**
 
-1.user enters in text box whether they are interested in a beginner or intermediate yoga practice (reach: add advanced) 
+1. user enters in text box whether they are interested in a beginner or intermediate yoga practice (reach: add advanced) 
   * form validates input as valid (beginner or intermediate, lowercase/no spaces)
   * then returns the next text box 
 
@@ -25,3 +25,11 @@
 
 - HTML, CSS, JavaScript
 - Reach: an API for yoga poses or class finder
+
+##MVP
+1. user enters in text box what type of yoga pose they are interested in:
+* low back care (gentle low back stretch for people that suffer from pain in their lumbar spine)
+* the web dev (for those that sit at a desk hunched over a screen all day)
+* the coloradian (for those that like to tackle peaks (cycle,run,ski) and suffer from common IT band syndrome)
+  * form validates input as valid (from options above)
+* image of yoga pose and directions returned to user based on their input.
