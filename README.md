@@ -1,7 +1,7 @@
 # Q1 Project Proposal
 
 ## Project Proposal A
-**The Herbal Apothecary**
+**Herbal Apothecary**
 ![alt text](https://github.com/yogasarak/Q1_Project_Proposal/blob/master/herbal%20.png "Simple Mock-up")
 
 1. user enters in text box what type of mood they are in (from the options)
