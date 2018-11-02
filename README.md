@@ -1,6 +1,6 @@
 # Q1 Project Proposal
 
-## Project Proposal B
+## Project Proposal A
 **The Herbal Apothecary**
 ![alt text](https://github.com/yogasarak/Q1_Project_Proposal/blob/master/herbal%20.png "Simple Mock-up")
 
