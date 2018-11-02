@@ -26,6 +26,50 @@
 ### color theme 
 ![alt text](https://github.com/yogasarak/Q1_Project_Proposal/blob/master/color%20theme.png "")
 
+#### techincal spec notes:
+
+localStorage = previous stored values of local program
+form captures user input sep from favorites
+
+1. client side validation ‘on submit’
+	2.validate input 
+	-check for valid
+		-if else statements for which program based on input
+____________________
+### HTML
+
+-inside div id =‘moody..’ (three options)
+	-image tags
+	-text ex: down in the valley spray: recipe ..
+-dynamically show.hid div
+	ex: 
+	display: hidden 
+	display: none
+	display: block 
+
+____________________
+### JavaScript
+targetProgramDuration
+
+text box: ask for a number
+‘please choose'
+(drop-down would be better, has built in validation,want client side)
+
+1.validate  : client side validation (‘on submitt’)
+  - (validate) duration is numeric (20,40,60)
+  - validate form input: beginner can't choose 90min
+    - beginner, intermediate, advance
+2. client side validation ‘on submitt’
+3. 'on click’ handler: "invalid input”
+4. -dynamically show.hid div
+-reference dynamically show.hid div with target = getElementById(‘beginner’)
+
+if else statements for which program based on input
+ne event listener, (‘on submit’)
+logic in own function
+
+clearLayout() —— turn innHTML = ‘ “
+
 
 ## Project Proposal B
 **Brief description of Yoga Practice website**
