@@ -1,6 +1,29 @@
 # Q1ProjectProposal-
 
-## Project Proposal A 
+## Project Proposal B
+**The Herbal Apothecary**
+
+1. user enters in text box what type of mood they are in (from the options)
+... * moody moon days (emotional, moody, changeable. Spray will offer balance. 
+... * up on the peaks (happy, content, satisfied, fulfilled) Spray will offer grounding. 
+... * down in the valley (sad) Spray will offer uplifting energy.
+ * form validates input as valid (matches selection options above)
+ * then returns the a essential oil recipe to soothe their mood.
+ 
+* What problem or need does your project solve?
+- we all need a little more self care and r&r, these simple, easy recipes invite the users to try a accessible act of self love and care. By following a recipe for a essential oil spray, users can experience a spa-like moment in a bottle, that they can return to any time throughout their day... when emotions run high or low.
+
+* Who would be a user of your website?
+- anyone that wants to learn more about how plant medicine can be a transformative experience.
+- anyone who wants to deepen or simple start, a practice of managing their emotions and getting in touch with their inner world. By learning how to identify emotional states and take action in the direction of self care, benefits can lead to personal and professional growth through knowing and better taking care of ones self. 
+
+* What technologies will you be using?
+
+- HTML, CSS, JavaScript
+- Reach: an API for recipe finder
+
+
+## Project Proposal B
 **Brief description of Yoga Practice website**
 
 1. user enters in text box whether they are interested in a beginner or intermediate yoga practice (reach: add advanced) 
@@ -33,42 +56,3 @@
 * the coloradian (for those that like to tackle peaks (cycle,run,ski) and suffer from common IT band syndrome)
   * form validates input as valid (from options above)
 * image of yoga pose and directions returned to user based on their input.
-
-
-# Q1ProjectProposal-
-
-## Project Proposal B
-**Brief description of recipe website**
-
-1. user enters in text box whether they are interested in a 
-
- * form validates input as valid (beginner or intermediate, lowercase/no spaces)
- * then returns the next text box 
-
-2. user enters in text box whether they have
-  ..* beginner valid input options: 10, 15 minute practice
-  ..* intermediate valid input options: 20, 30 minute practice 
-
-* What problem or need does your project solve?
-
-- many clients that I have cooked for want my recipes. I have also given public and private cooking classes. Both of these needs are met, people get recipes AND learn hwo to cook.
-- this also helps individuals and families who want to eat healthier, know their ingredients 
-
-* Who would be a user of your website?
-
-- anyone interested in cooking at home, improving the quality and nutritional value of their meals, and saving money on eating 	out!
-- busy individuals, couples, families or persons that do not have the budget/time to eat out. 
-	- beginner, intermediate cooks. (reach advanced home cooks & professional chefs).
-
-* What technologies will you be using?
-
-- HTML, CSS, JavaScript
-- Reach: an API for recipe finder
-
-## MVP
-1. user enters in text box what type of  they are interested in:
-* 
-* 
-* 
-  * form validates input as valid (from options above)
-* image of returned to user based on their input.
