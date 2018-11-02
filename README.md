@@ -1,4 +1,4 @@
-# Q1ProjectProposal-
+# Q1 Project Proposal
 
 ## Project Proposal B
 **The Herbal Apothecary**
