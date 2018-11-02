@@ -56,6 +56,7 @@ text box: ask for a number
 (drop-down would be better, has built in validation,want client side)
 
 1.validate  : client side validation (‘on submitt’)
+examples for proposal B, work the same as proposal A
   - (validate) duration is numeric (20,40,60)
   - validate form input: beginner can't choose 90min
     - beginner, intermediate, advance
