@@ -5,9 +5,9 @@
 ![alt text](https://github.com/yogasarak/Q1_Project_Proposal/blob/master/herbal%20.png "Simple Mock-up")
 
 1. user enters in text box what type of mood they are in (from the options)
-* moody moon days (emotional, moody, changeable. Spray will offer balance. 
-* up on the peaks (happy, content, satisfied, fulfilled) Spray will offer grounding. 
-* down in the valley (sad) Spray will offer uplifting energy.
+	-moody moon days (emotional, moody, changeable. Spray will offer balance. 
+	-up on the peaks (happy, content, satisfied, fulfilled) Spray will offer grounding. 
+	-down in the valley (sad) Spray will offer uplifting energy.
  * form validates input as valid (matches selection options above)
  * then returns the a essential oil recipe to soothe their mood.
  
