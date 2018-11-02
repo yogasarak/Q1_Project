@@ -24,7 +24,7 @@
 - Reach: an API for recipe finder
 
 ### color theme 
-![alt text]( "")
+![alt text](https://github.com/yogasarak/Q1_Project_Proposal/blob/master/color%20theme.png "")
 
 
 ## Project Proposal B
