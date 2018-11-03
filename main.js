@@ -18,9 +18,8 @@ document.addEventListener('DOMContentLoaded', function() {
   for (let i = 0; i < li.length; i++) {
     let item = li[i]
 
-
     item.addEventListener('click', function() {
-      console.log(item, 'here')
+
     })
 
   }
