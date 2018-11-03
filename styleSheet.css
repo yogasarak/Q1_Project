@@ -1,7 +1,11 @@
-
 #dropdown-btn {
   width: 100%;
+  color: #35393D;
+  font-size: 12pt;
+  font-style: bold;
+
 }
+
 .section {
   background-color: #F4E8E8;
 }
