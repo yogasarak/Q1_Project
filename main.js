@@ -28,7 +28,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     })
   }
-
-
+  // Collapsible
+  let elems1 = document.querySelectorAll('.collapsible');
+  let instances3 = M.Collapsible.init(elems1);
 })
 // onclick='myFunction()'

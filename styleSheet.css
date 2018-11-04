@@ -3,7 +3,7 @@
   color: #35393D;
   font-size: 12pt;
   font-style: bold;
-
+  background-color: #DDD9E3;
 }
 
 .section {
@@ -12,4 +12,12 @@
 
 #hideDiv {
  display: none;
+}
+
+.collapsible-header{
+  background-color: #DDD9E3;
+}
+.collapsible {
+  /* color: blue; */
+  /* background-color: pink; */
 }
