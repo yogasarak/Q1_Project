@@ -9,3 +9,7 @@
 .section {
   background-color: #F4E8E8;
 }
+
+#hideDiv {
+ display: none;
+}

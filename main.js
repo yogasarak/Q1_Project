@@ -8,27 +8,26 @@ document.addEventListener('DOMContentLoaded', function() {
   // list items in drop down
   let li = document.querySelectorAll('li')
 
-  // hideDiv.style.display = 'none'
-//
-//   for (let i = 0; i < li.length; i++) {
-//     let item = li[i]
-//
-//
-//     item.addEventListener('click', function () {
-//       let hideDiv = document.getElementById('hideDiv')
-//       let moodyCard = document.getElementById('moodyCard')
-//       let moody = document.getElementById('moody')
-//       function myFunction(){
-//   if (item === moody) {
-//     hideDiv.style.display = 'block'
-//   } else {
-//     hideDiv.style.display = 'none'
-//   }
-//
-// }
-//
-//     })
-//   }
+
+  for (let i = 0; i < li.length; i++) {
+    let item = li[i]
+
+
+    item.addEventListener('click', function (event) {
+      let hideDiv = document.getElementById('hideDiv')
+      let moodyCard = document.getElementById('moodyCard')
+      let moody = document.getElementById('moody')
+
+  if (event.target === moody) {
+    hideDiv.style.display = 'block'
+  } else {
+    hideDiv.style.display = 'none'
+  }
+
+
+
+    })
+  }
 
 
 })
