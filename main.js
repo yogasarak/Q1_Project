@@ -8,28 +8,44 @@ document.addEventListener('DOMContentLoaded', function() {
   // list items in drop down
   let li = document.querySelectorAll('li')
 
-
   for (let i = 0; i < li.length; i++) {
     let item = li[i]
 
 
-    item.addEventListener('click', function (event) {
-      let hideDiv = document.getElementById('hideDiv')
+    item.addEventListener('click', function(event) {
+
+      let hidDiv = document.getElementsByClassName('hideDiv')
       let moodyCard = document.getElementById('moodyCard')
       let moody = document.getElementById('moody')
+      let valleyCard = document.getElementById('valleyCard')
+      let valley = document.getElementById('valley')
 
-  if (event.target === moody) {
-    hideDiv.style.display = 'block'
-  } else {
-    hideDiv.style.display = 'none'
-  }
+
+
+      if (event.target === moody) {
+        moodyCard.style.display = 'block'
+        valleyCard.style.display = 'none'
+      } else if (event.target === valley) {
+        valleyCard.style.display = 'block'
+        moodyCard.style.display = 'none'
+      }
+
 
 
 
     })
   }
+
   // Collapsible
   let elems1 = document.querySelectorAll('.collapsible');
   let instances3 = M.Collapsible.init(elems1);
+
+  // form
+  $(document).ready(function() {
+    $('input#input_text, textarea#textarea2').characterCounter();
+  })
+
+
 })
 // onclick='myFunction()'
+// individual evemnt addEventListener for each list

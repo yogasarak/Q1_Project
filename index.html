@@ -6,12 +6,14 @@
   <!-- Compiled and minified CSS materalize CDN -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
   <title>herbal apothecary</title>
+
 </head>
 <link rel="stylesheet" href="stylesheet.css">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 <!-- NOTE: icon cdn -->
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 <script src="main.js"></script>
+<script src="local.js" charset="utf-8"></script>
 
 <body>
 
@@ -34,54 +36,122 @@
       <ul id='dropdown1' class='dropdown-content'>
         <li><a href="#!" id='moody'>moody moon days</a></li>
         <li class="divider" tabindex="-1"></li>
-        <li><a href="#!">down in the valley</a></li>
+        <li><a href="#!" id='valley'>down in the valley</a></li>
         <li class="divider" tabindex="-1"></li>
-        <li><a href="#!">up on the peaks</a></li>
+        <li><a href="#!" id='peaks'>up on the peaks</a></li>
         <li class="divider" tabindex="-1"></li>
       </ul>
     </div>
     <!--  NOTE: Dropdown Trigger end-->
 
-    <!-- NOTE: cards -->
-    <div id="hideDiv">
-      <div class="container">
-        <div class='row'>
-          <div class="col s8">
-            <div class="card small" id='moodyCard'>
-              <div class="card-image waves-effect waves-block waves-light">
-                <img class="activator" src="images/peace.jpeg">
-              </div>
-              <div class="card-content">
-                <span class="card-title activator grey-text text-darken-4">moody moon days elixir<i class="material-icons right">more_vert</i></span>
-                <!-- <p><a href="#">This is a link</a></p> -->
-              </div>
-              <div class="card-reveal">
-                <span class="card-title grey-text text-darken-4">so you're a little moody<i class="material-icons right">close</i></span>
-                <p>here's your recipe</p>
-                <ul>
-                  <li>10 drops Lavender</li>
-                  <li>10 drops Chamomile</li>
-                  <li>10 drops Cedarwood</li>
-                </ul>
-                <p>
-                  <blockquote> Live in the sunshine, swim the sea, drink the wild air. </blockquote>
-                  -emmerson
-                </p>
-              </div>
+
+    <!-- NOTE: moody card -->
+    <div class="container">
+      <div class='row'>
+        <div class="col s8">
+          <div class="card small hideDiv" id='moodyCard'>
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="images/peace.jpeg">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">moody moon days elixir<i class="material-icons right">more_vert</i></span>
+              <!-- <p><a href="#">This is a link</a></p> -->
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">so you're a little moody<i class="material-icons right">close</i></span>
+              <p>here's your recipe</p>
+              <ul>
+                <li>10 drops Lavender</li>
+                <li>10 drops Chamomile</li>
+                <li>10 drops Cedarwood</li>
+              </ul>
+              <p>
+                <blockquote> Live in the sunshine, swim the sea, drink the wild air. </blockquote>
+                -emmerson
+              </p>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <!-- NOTE: cards -->
+    <!-- NOTE: end moody card -->
+
+    <!-- NOTE: valley card -->
+    <div class="container">
+      <div class='row'>
+        <div class="col s8">
+          <div class="card small hideDiv" id='valleyCard'>
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="images/empowered.jpeg">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">down in the valley elixir<i class="material-icons right">more_vert</i></span>
+              <!-- <p><a href="#">This is a link</a></p> -->
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">so you're a feeling a little down<i class="material-icons right">close</i></span>
+              <p>here's your recipe</p>
+              <ul>
+                <li>3 drops wild orange</li>
+                <li>3 drops grapefruit</li>
+                <li>2 drops lemon</li>
+                <li>2 drop bergamot</li>
+              </ul>
+              <p>
+                <blockquote> Live in the sunshine, swim the sea, drink the wild air. </blockquote>
+                -emmerson
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- NOTE: end valley card-->
 
     <!-- NOTE: collapsible -->
     <div class="container">
       <div class='row'>
         <ul class="collapsible">
           <li>
+            <div class="collapsible-header"><i class="material-icons">details</i> BEFORE YOU BLEND
+            </div>
+            <div class="collapsible-body"><span>
+                There are a few cardinal rules of essential-oil usage to keep in mind. For starters, essential oils are natural but incredibly powerful—the plant extracts are so concentrated that they can cause irritation if applied directly to your
+                skin. The easiest way to dilute your blend is with a neutral-smelling carrier oil like jojoba or sweet almond oil. (For proportions, a good rule of thumb is six drops of essential oil per ounce of carrier oil, but you can also play
+                around according to personal preference.)
+              </span></div>
+          </li>
+          <li>
+            <div class="collapsible-header"><i class="material-icons">face</i>What Are Essential Oils?</div>
+            <div class="collapsible-body">
+              <span>
+                <p>
+                  Essential oils are extracted directly from the bark, flower, fruit, leaf, seed or root of a plant or tree, and just one drop can have powerful health benefits. They are typically created through the
+                  process of distillation, which separates the oil and water-based compounds of a plant by steaming.
+
+                  These therapeutic oils in plants protect the plant from insects, shield the plant from a harsh environment and help them adapt to their surroundings. By taking essential oils, you are harnessing the protective and beneficial powers
+                  of a plant.
+                </p>
+                <p>
+                  Essential oils are composed of very small molecules that can penetrate your cells, and some compounds in essential oils can even cross the blood-brain barrier. They differ from fatty oils (like those in vegetables or nuts) that
+                  come from large molecules because they cannot penetrate your cells, so they are not therapeutic in the same manner.
+                </p>
+                <p>
+                  Different oils can be blended together to enhance each’s energy or can be blended with a base oil to be used for massage, shower gels or body lotions.
+                </p>
+              </span>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div> <!-- NOTE: collapsible end-->
+    <!-- NOTE: collapsible 2-->
+    <div class="container">
+      <div class='row'>
+        <ul class="collapsible">
+          <li>
             <div class="collapsible-header"><i class="material-icons">favorite_border</i>self love</div>
-            <div class="collapsible-body"><span>why why why essential oils</span></div>
+            <div class="collapsible-body"><span>taking just one moment, in the many many moments that compile your whole day, taking just tiny moment for you, to breath, this my love- this is a expression of self love</span></div>
           </li>
           <li>
             <div class="collapsible-header"><i class="material-icons">looks</i>smell good</div>
@@ -89,11 +159,31 @@
           </li>
           <li>
             <div class="collapsible-header"><i class="material-icons">brightness_3</i>breathe</div>
-            <div class="collapsible-body"><span>here's a box breathing excercise</span></div>
+            <div class="collapsible-body">
+              <span>Here's a simple box breathing excercise:</span>
+              <ul>
+                <li>
+                  -On the inhale, expand the belly, then the diaphragm, then the upper chest.
+                  -On the exhale, let the breath go first from the upper chest, then the ribcage, then the belly. This helps you relearn how to breathe deeply.
+                </li>
+                <li>
+                  -Inhale and exhale solely through the nose. It stimulates the nerves that activate the parasympathetic nervous system and counters the fear response of the sympathetic nervous system.
+                </li>
+                <li>Steps:</li>
+                <li>* Inhale for a count of 5.</li>
+                <li>* Retain and hold the breath for a count of 5.</li>
+                <li>* Exhale all the breath from the lungs for a count of 5.</li>
+                <li>* Retain and hold the breath for a count of 5.</li>
+                <li>* Repeat.</li>
+                <li>Length: Start with 1-3 minute, work up to 5-10 minutes a day.</li>
+              </ul>
+            </div>
           </li>
         </ul>
       </div>
-    </div> <!-- NOTE: collapsible end-->
+    </div>
+    <!-- NOTE: collapsible end 2-->
+
   </div> <!-- NOTE: middle end -->
 
   <!-- NOTE: parallax bottom-->
@@ -102,6 +192,19 @@
   </div>
   <!-- NOTE: parallax end-->
 
+  <!-- NOTE: form -->
+  <div class="container">
+    <div class="col s6">
+      <div class="input-field col s6">
+        <!-- list of other pages -->
+        <ul>
+          <li><a href="signUp.html">click here to sign-up for our newsletter</a></li>
+        </ul>
+        <!-- list of other pages -->
+      </div>
+    </div>
+  </div>
+  <!-- NOTE: form -->
 
 </body>
 

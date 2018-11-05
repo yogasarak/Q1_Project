@@ -10,7 +10,7 @@
   background-color: #F4E8E8;
 }
 
-#hideDiv {
+.hideDiv {
  display: none;
 }
 
@@ -20,4 +20,5 @@
 .collapsible {
   /* color: blue; */
   /* background-color: pink; */
+  /* background-color: #E0D9D3; */
 }
