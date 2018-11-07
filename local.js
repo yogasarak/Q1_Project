@@ -13,7 +13,7 @@ form.addEventListener('submit', function(event) {
 })
 
 if (localStorage.getItem('name')) {
-  document.getElementById('response').innerHTML = localStorage.getItem('name')
+  document.getElementById('response').innerHTML = localStorage.getItem('name') + ',' + ' '+ 'thanks for signing up!'
 }
 let retrievedlocalStorage = JSON.parse(localStorage.getItem(name))
 
