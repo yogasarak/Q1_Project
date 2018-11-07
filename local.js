@@ -10,11 +10,13 @@ form.addEventListener('submit', function(event) {
   let name = document.getElementById('name-input').value
   localStorage.setItem('name', name)
 
+  if (localStorage.getItem('name')) {
+    document.getElementById('response').innerHTML = localStorage.getItem('name') + ',' + ' '+ 'thanks for signing up!'
+  }
+
 })
 
-if (localStorage.getItem('name')) {
-  document.getElementById('response').innerHTML = localStorage.getItem('name') + ',' + ' '+ 'thanks for signing up!'
-}
+
 let retrievedlocalStorage = JSON.parse(localStorage.getItem(name))
 
 })
