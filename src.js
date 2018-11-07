@@ -4,11 +4,10 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
   form.addEventListener("submit", function() {
-    // event.preventDefault()
+
 
     const email = document.getElementById("email-input").value
     const password = document.getElementById("password-input").value
-    const telephone = document.getElementById("tel-input").value
     const admin = document.getElementById("admin-input").checked
 
 
@@ -20,11 +19,7 @@ document.addEventListener("DOMContentLoaded", function() {
   admin.addEventListener("click", function() {
 
     if (admin.checked) {
-      let newText = document.createElement("p")
-      newText.setAttribute("id", "new-text")
-      newText.innerText = " i love you keep going"
-      body.appendChild(newText)
-
+      document.getElementById('meta').innerHTML = 'i love you keep going'
     } else {
       let newText = document.getElementById("new-text")
       body.removeChild(newText)

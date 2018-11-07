@@ -1,40 +1,93 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 
+
+
+<!-- Compiled and minified CSS materalize CDN -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+
 <head>
+
   <meta charset="utf-8">
-  <title>Client Side Validation Demo</title>
+
+
+
+  <link rel="stylesheet" href="stylesheet.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+  <!-- NOTE: icon cdn -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
   <script type="text/javascript" src="src.js"></script>
+  <script src="main.js"></script>
   <script src="local.js" charset="utf-8"></script>
-  <ul>
-    <li><a href="index.html">go back to homepage</a></li>
-  </ul>
+
+  <title>herbal apothecary</title>
+
 </head>
 
 <body>
+  <!-- NOTE: navbar -->
+  <nav>
+   <div class="nav-wrapper">
+       <ul>
+         <li><a href="index.html">go back to homepage</a></li>
+   </div>
+ </nav>
+   <!-- NOTE: navbar -->
 
-  <form class="input-form">
-  <br>
-    <div class="input-form">
-      <label for="email-input">Email</label>
-      <input id="email-input" type="email" required>
-    </div>
-  <br>
-    <div class="input-form">
-      <label for="password">Password</label>
-      <input id="password-input" type="password" required>
-    </div>
-  <br>
-    <div class="input-form">
-      <label for="admin-input">give me some meta</label>
-      <input id="admin-input" type="checkbox" value="admin">
-    </div>
-    <br>
-    <div class="input-form">
-      <input type="submit" value="Submit">
-    </div>
+  <!-- NOTE: parallax top-->
+  <div class="parallax-container">
+    <div class="parallax"><img src="images/essential.jpeg" style="width: 60%"></div>
+  </div>
+  <!-- NOTE: parallax end-->
 
-  </form>
+  <!-- NOTE: middle body -->
+  <div class="section2">
+    <div class="row container">
+      <h5 class="header grey-text text-darken-2">sign-up for our newsletter</h5>
+      <!-- NOTE: middle body -->
+
+      <form class="input-form">
+        <br>
+        <div class="input-form">
+          <label for="name-input">Name</label>
+          <input id="name-input" type="text" required>
+        </div>
+
+        <div class="input-form">
+          <label for="email-input">Email</label>
+          <input id="email-input" type="email" required>
+        </div>
+        <br>
+        <div class="input-form">
+          <label for="password">Password</label>
+          <input id="password-input" type="password" required>
+        </div>
+        <br>
+
+        <div class="input-form">
+          <label for="admin-input">give me some meta</label>
+          <input id="admin-input" type="checkbox" value="admin">
+        </div>
+        <br>
+        <div class="input-form">
+          <input type="submit" value="submit">
+        </div>
+      </form>
+      <p id = "response"></p>
+      <p id = "meta"></p>
+
+    </div> <!-- NOTE: middle end -->
+
+    <!-- NOTE: parallax bottom-->
+    <div class="parallax-container">
+      <div class="parallax"><img src="images/bowls.jpeg" style="width: 60%"></div>
+    </div>
+    <!-- NOTE: parallax end-->
+
+
 
 </body>
 

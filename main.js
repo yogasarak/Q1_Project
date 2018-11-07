@@ -19,14 +19,21 @@ document.addEventListener('DOMContentLoaded', function() {
       let moody = document.getElementById('moody')
       let valleyCard = document.getElementById('valleyCard')
       let valley = document.getElementById('valley')
-
+      let peaksCard = document.getElementById('peaksCard')
+      let peaks = document.getElementById('peaks')
 
 
       if (event.target === moody) {
         moodyCard.style.display = 'block'
         valleyCard.style.display = 'none'
+        peaksCard.style.display = 'none'
       } else if (event.target === valley) {
         valleyCard.style.display = 'block'
+        moodyCard.style.display = 'none'
+        peaksCard.style.display = 'none'
+      } else if (event.target === peaks) {
+        peaksCard.style.display = 'block'
+        valleyCard.style.display = 'none'
         moodyCard.style.display = 'none'
       }
 
@@ -40,10 +47,10 @@ document.addEventListener('DOMContentLoaded', function() {
   let elems1 = document.querySelectorAll('.collapsible');
   let instances3 = M.Collapsible.init(elems1);
 
-  // form
-  $(document).ready(function() {
-    $('input#input_text, textarea#textarea2').characterCounter();
-  })
+  // // form
+  // $(document).ready(function() {
+  //   $('input#input_text, textarea#textarea2').characterCounter();
+  // })
 
 
 })
