@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <link rel="stylesheet" href="styleSheet.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <!-- NOTE: icon cdn -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <script src="main.js"></script>
+  <script src="local.js" charset="utf-8"></script>
+
+  <title>herbal apothecary</title>
+  <meta name="viewport" content="initial-scale=1.0">
+  <meta charset="utf-8">
+
+  <style>
+    /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+    #map {
+      height: 50vh;
+
+    }
+
+    #logo {
+      font-size: 1.5em;
+      color: #37474f;
+      font-family: 'Quicksand', sans-serif;
+    }
+  </style>
+
+</head>
+
+<body>
+  <!-- NOTE: navbar -->
+  <nav>
+    <div class="nav-wrapper #ef9a9a red lighten-3">
+      <ul>
+        <li><a class="brand-logo center" id='logo' href="index.html">sourcing essential oils</a></li>
+    </div>
+  </nav>
+  <!-- NOTE: navbar -->
+
+  <!-- NOTE: parallax top-->
+  <div class="parallax-container">
+    <div class="parallax"><img src="images/peace.jpeg" style="width: 100vw"></div>
+  </div>
+  <!-- NOTE: parallax end-->
+
+  <!-- <div class='row #ef9a9a red lighten-3'>
+    <div class="col s12"> -->
+  <div id="map"></div>
+
+  <script>
+    function initMap() {
+      // The location of Uluru
+      var durango = {
+        lat: 37.274712,
+        lng: -107.880104
+      };
+      // The map, centered at
+      var map = new google.maps.Map(
+        document.getElementById('map'), {
+          zoom: 4,
+          center: durango,
+          zoom: 8
+        });
+      // The marker, positioned at
+      var marker = new google.maps.Marker({
+        position: durango,
+        map: map
+      });
+
+      let infowindow = new google.maps.InfoWindow({
+        content: "Dancing Willow Apothecary, 1018 MAIN AVE. DURANGO, CO 81301"
+      });
+
+      google.maps.event.addListener(marker, 'click', function() {
+        infowindow.open(map, marker);
+      })
+
+    }
+  </script>
+  <!-- </div>
+  </div>
+ -->
+
+  <!-- NOTE: parallax bottom-->
+  <div class="parallax-container">
+    <div class="parallax"><img src="images/peace.jpeg" style="width: 100vw"></div>
+  </div>
+  <!-- NOTE: parallax end-->
+
+  <!-- NOTE: navbar -->
+  <nav>
+    <div class="nav-wrapper #ef9a9a red lighten-3">
+      <ul>
+        <li><a class="brand-logo center" id='logo' href="index.html">return to infuse your mood homepage</a></li>
+    </div>
+  </nav>
+  <!-- NOTE: navbar -->
+
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB62ABvSY0-dv5vLhG0nBassrkqS7NeEh8&callback=initMap">
+  </script>
+
+</body>
+
+</html>
