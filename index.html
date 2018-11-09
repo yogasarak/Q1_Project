@@ -10,14 +10,41 @@
 </head>
 <!-- Compiled and minified CSS materalize CDN -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-<link rel="stylesheet" href="styleSheet.css">
+
+<link rel="stylesheet" href="stylesheet.css">
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
 <!-- NOTE: icon cdn -->
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
 <script src="main.js"></script>
 <script src="local.js" charset="utf-8"></script>
 
 <body>
+  <!-- NOTE: sidenav -->
+  <ul id="slide-out" class="sidenav">
+    <li>
+      <div class="user-view">
+        <div class="background">
+          <img src="images/green.jpg" style="width: 200%">
+        </div>
+        <a href="#!"><span class="material-icons">brightness_1</span></a>
+        <a href="#!"><span class="material-icons">brightness_2</span></a>
+        <a href="#!"><span class="material-icons">brightness_3</span></a>
+        <a href="#!"><span class="material-icons">brightness_3</span></a>
+      </div>
+    </li>
+    <li><a class="waves-effect" href="index.html"><i class="material-icons">brightness_1</i>Mood Matcher</a></li>
+    <li><a class="waves-effect" href="mapPage.html"><i class="material-icons">brightness_2</i>sourcing</a></li>
+    <li><a class="waves-effect" href="signUp.html"><i class="material-icons">brightness_3</i>Sign-up for newsletter</a></li>
+    <li><a class="sidenav-close" class="waves-effect" href="#!"><i class="material-icons">looks</i>close me</a></li>
+  </ul>
+  <div class="hamburger">
+    <a href="#" data-target="slide-out" class="sidenav-trigger show-on-large"><i class="medium material-icons lime-text text">menu</i></a>
+  </div>
+  <!-- NOTE: sidenav -->
+
 
   <!-- NOTE: parallax top-->
   <div class="parallax-container">
@@ -227,7 +254,7 @@
         <li>
           <div class="collapsible-header"><i class="material-icons">favorite_border</i>self love</div>
           <div class="collapsible-body"><span>taking just one moment, in the many many moments that compile your whole day, taking just tiny moment for you, to breath, this my love- this is a expression of self love</span>
-          
+
           </div>
         </li>
         <li>
@@ -264,17 +291,6 @@
     <div class="parallax"><img src="images/bowls.jpeg" style="width: 60%"></div>
   </div>
   <!-- NOTE: parallax end-->
-
-  <!-- NOTE: navbar -->
-  <nav>
-    <div class="nav-wrapper #7986cb indigo lighten-2">
-      <ul>
-        <li><a href="signUp.html">click here to sign-up for our newsletter</a></li>
-        <li><a href="mapPage.html">where to buy essential oils</a></li>
-    </div>
-  </nav>
-  <!-- NOTE: navbar -->
-
 </body>
 
 </html>

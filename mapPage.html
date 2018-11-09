@@ -2,7 +2,7 @@
 <html>
 
 <head>
-  <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+  <!-- <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet"> -->
 
   <!-- Compiled and minified CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
@@ -25,86 +25,84 @@
        * element that contains the map. */
     #map {
       height: 50vh;
-
-    }
-
-    #logo {
-      font-size: 1.5em;
-      color: #37474f;
-      font-family: 'Quicksand', sans-serif;
     }
   </style>
 
 </head>
 
-<body>
-  <!-- NOTE: navbar -->
-  <nav>
-    <div class="nav-wrapper #ef9a9a red lighten-3">
-      <ul>
-        <li><a class="brand-logo center" id='logo' href="index.html">sourcing essential oils</a></li>
-    </div>
-  </nav>
-  <!-- NOTE: navbar -->
+<body style="background-color: #F4E8E8;">
+  <!-- NOTE: sidenav -->
+  <ul id="slide-out" class="sidenav">
+    <li>
+      <div class="user-view">
+        <div class="background">
+          <img src="images/green.jpg" style="width: 200%">
+        </div>
+        <a href="#!"><span class="material-icons">brightness_1</span></a>
+        <a href="#!"><span class="material-icons">brightness_2</span></a>
+        <a href="#!"><span class="material-icons">brightness_3</span></a>
+        <a href="#!"><span class="material-icons">brightness_3</span></a>
+      </div>
+    </li>
+    <li><a class="waves-effect" href="index.html"><i class="material-icons">brightness_1</i>Mood Matcher</a></li>
+    <li><a class="waves-effect" href="mapPage.html"><i class="material-icons">brightness_2</i>sourcing</a></li>
+    <li><a class="waves-effect" href="signUp.html"><i class="material-icons">brightness_3</i>Sign-up for newsletter</a></li>
+    <li><a class="sidenav-close" class="waves-effect" href="#!"><i class="material-icons">looks</i>close me</a></li>
+  </ul>
+  <div class="hamburger">
+    <a href="#" data-target="slide-out" class="sidenav-trigger show-on-large"><i class="medium material-icons lime-text text">menu</i></a>
+  </div>
+  <!-- NOTE: sidenav -->
+
 
   <!-- NOTE: parallax top-->
   <div class="parallax-container">
-    <div class="parallax"><img src="images/peace.jpeg" style="width: 100vw"></div>
+    <div class="parallax"><img src="images/holisticSpread.jpg"></div>
   </div>
   <!-- NOTE: parallax end-->
 
-  <!-- <div class='row #ef9a9a red lighten-3'>
-    <div class="col s12"> -->
-  <div id="map"></div>
+  <div class="container">
 
-  <script>
-    function initMap() {
-      // The location of Uluru
-      var durango = {
-        lat: 37.274712,
-        lng: -107.880104
-      };
-      // The map, centered at
-      var map = new google.maps.Map(
-        document.getElementById('map'), {
-          zoom: 4,
-          center: durango,
-          zoom: 8
+    <div id="map"></div>
+
+    <script>
+      function initMap() {
+        // The location of Uluru
+        var durango = {
+          lat: 37.274712,
+          lng: -107.880104
+        };
+        // The map, centered at
+        var map = new google.maps.Map(
+          document.getElementById('map'), {
+            zoom: 4,
+            center: durango,
+            zoom: 8
+          });
+        // The marker, positioned at
+        var marker = new google.maps.Marker({
+          position: durango,
+          map: map
         });
-      // The marker, positioned at
-      var marker = new google.maps.Marker({
-        position: durango,
-        map: map
-      });
 
-      let infowindow = new google.maps.InfoWindow({
-        content: "Dancing Willow Apothecary, 1018 MAIN AVE. DURANGO, CO 81301"
-      });
+        let infowindow = new google.maps.InfoWindow({
+          content: "Dancing Willow Apothecary, 1018 MAIN AVE. DURANGO, CO 81301"
+        });
 
-      google.maps.event.addListener(marker, 'click', function() {
-        infowindow.open(map, marker);
-      })
+        google.maps.event.addListener(marker, 'click', function() {
+          infowindow.open(map, marker);
+        })
 
-    }
-  </script>
-  <!-- </div>
+      }
+    </script>
   </div>
- -->
+
 
   <!-- NOTE: parallax bottom-->
   <div class="parallax-container">
-    <div class="parallax"><img src="images/peace.jpeg" style="width: 100vw"></div>
+    <div class="parallax"><img src="images/holisticSpread.jpg"></div>
   </div>
   <!-- NOTE: parallax end-->
-
-  <!-- NOTE: navbar -->
-  <nav>
-    <div class="nav-wrapper #ef9a9a red lighten-3">
-      <ul>
-        <li><a class="brand-logo center" id='logo' href="index.html">return to infuse your mood homepage</a></li>
-    </div>
-  </nav>
-  <!-- NOTE: navbar -->
 
   <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB62ABvSY0-dv5vLhG0nBassrkqS7NeEh8&callback=initMap">
   </script>

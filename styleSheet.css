@@ -11,14 +11,26 @@
 }
 
 .hideDiv {
- display: none;
+  display: none;
 }
 
-.collapsible-header{
+.collapsible-header {
   background-color: #DDD9E3;
 }
-.collapsible {
-  /* color: blue; */
-  /* background-color: pink; */
-  /* background-color: #E0D9D3; */
+
+#slide-out {
+  background-image: url("images/transparentyellow.jpg");
+  background-size: cover;
+  background-position: center;
+  /* background-repeat: repeat; */
+}
+
+.hamburger{
+  background-color: #F4E8E8;
+}
+
+.brand-logo{
+  font-size: 2em;
+  text-align: center;
+  margin-left: 1em;
 }
