@@ -1,5 +1,5 @@
 **completed project**
-infuseyourmood.surge.sh
+![alt text](infuseyourmood.surge.sh)
 
 # Q1 Project Proposal
 
@@ -31,8 +31,6 @@ infuseyourmood.surge.sh
 
 ### planning 
 ![alt text](https://github.com/yogasarak/Q1_Project/blob/master/wireframe.png)
-### example of recipe card for elixir card
-![alt text](https://github.com/yogasarak/Q1_Project/blob/master/recipe%20card%20example.png)
 
 #### techincal spec notes:
 
