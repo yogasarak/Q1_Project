@@ -1,5 +1,5 @@
 **completed project**
-![alt text](infuseyourmood.surge.sh)
+<infuseyourmood.surge.sh>
 
 # Q1 Project Proposal
 
